@@ -45,7 +45,7 @@ EOF'
 sudo chmod -R 777 /var/www/html/
 sudo rm -r -d -f mkdir /DynamoAPI
 sudo mkdir /DynamoAPI
-sudo wget https://github.com/teog023/DynamoAPI/releases/download/10/DynamoAPI.zip -P /
+sudo wget https://github.com/teog023/DynamoAPI/releases/download/1.0/DynamoAPI.zip -P /
 sudo unzip /DynamoAPI.zip -d /
 sudo cp -a /DynamoAPI/. /var/www/html/
 sudo cp -R /DynamoAPI /var/www/DynamoAPI
