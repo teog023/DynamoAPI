@@ -1,5 +1,5 @@
 #!/bin/bash
-#dotnet publish -c Release -o API/Dynamo
+#dotnet publish -c Release -o API/DynamoAPI
 cd /
 sudo yum update -y
 sudo rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm
@@ -9,7 +9,7 @@ sudo chkconfig httpd on
 sudo curl -sSL -o dotnet.tar.gz https://go.microsoft.com/fwlink/?LinkID=835019
 sudo mkdir -p /opt/dotnet && sudo tar zxf dotnet.tar.gz -C /opt/dotnet
 sudo ln -s /opt/dotnet/dotnet /usr/local/bi
-sudo yum -y install dotnet-sdk-3.1
+sudo yum -y install dotnet-sdk-5.0
 sudo yum install -y gcc-c++ make
 sudo yum install -y nodejs
 sudo npm install -y -g @angular/cli
@@ -64,13 +64,13 @@ sudo bash -c 'cat << \EOF > /var/www/html/.htaccess
 </IfModule>
 EOF'
 sudo chmod -R 777 /var/www/html/.htaccess
-cd /DynamoAPI/API_RC/DynamoAPI
+cd /DynamoAPI
 sudo bash -c 'cat << \EOF > /etc/systemd/system/kestrel-DynamoAPI.service
 [Unit]
 Description=.NET Web API DynamoAPI DynamoAPI
 [Service]
-WorkingDirectory=/DynamoAPI/API_RC/DynamoAPI
-ExecStart=/usr/bin/dotnet /DynamoAPI/API_RC/DynamoAPI/DynamoAPI.dll
+WorkingDirectory=/DynamoAPI
+ExecStart=/usr/bin/dotnet /DynamoAPI/DynamoAPI.dll
 Restart=always
 RestartSec=10
 KillSignal=SIGINT
