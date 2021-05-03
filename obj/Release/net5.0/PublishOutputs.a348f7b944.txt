@@ -1,0 +1,13 @@
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\DynamoAPI.exe
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\appsettings.Development.json
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\appsettings.json
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\DynamoAPI.dll
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\DynamoAPI.deps.json
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\DynamoAPI.runtimeconfig.json
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\DynamoAPI.pdb
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\AWSSDK.Core.dll
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\AWSSDK.DynamoDBv2.dll
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\Microsoft.OpenApi.dll
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mgurrego\Documents\Desarrollo\DynamoAPI\API\Dynamo\Swashbuckle.AspNetCore.SwaggerUI.dll
